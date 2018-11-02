@@ -147,7 +147,7 @@ body {
     line-height: 20px;
     top: -12px;
     left: -12px;
-    cursor: default; 
+    cursor: default;
 }
 
 input[type="button"], button {
@@ -186,3 +186,13 @@ ul.submenu {
 ul.menu > li:hover > ul.submenu {
     display: block;
 }
+
+.arrow_down {
+    position: relative;
+}
+
+.fa-angle-down {
+    position: absolute;
+    font-size: 13px;
+    top: 19px;
+    right: 14px;}
