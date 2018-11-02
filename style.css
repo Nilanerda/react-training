@@ -147,7 +147,7 @@ body {
     line-height: 20px;
     top: -12px;
     left: -12px;
-    cursor: default;
+    cursor: default; 
 }
 
 input[type="button"], button {
