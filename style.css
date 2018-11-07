@@ -68,7 +68,7 @@ body {
     color: white;
 }
 
-ul.submenu {
+.submenu {
     position: absolute;
     width: 286px;
     padding: 25px 0 28px 0;
@@ -187,8 +187,36 @@ input[type="button"], button {
 }
 
 .slider {
-    height: 1300px;
+    height: 400px;
     background-color: black;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
 }
 
+.breadcrumb {
+    display: inline-block;
+    margin-top: 30px;
+}
 
+.breadcrumb li {
+    float: left;
+}
+
+.breadcrumb li a {
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.breadcrumb a:after {
+    content: ">";
+    margin: 0 5px;
+}
+
+.breadcrumb .current:after {
+    content: none;
+}
+
+.breadcrumb .current {
+    text-decoration: underline;
+}
