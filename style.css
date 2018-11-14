@@ -219,6 +219,10 @@ input[type="button"], button {
     text-decoration: none;
 }
 
+.breadcrumb li:hover a {
+    color: white;
+}
+
 .breadcrumb li:after {
     content: ">";
     margin: 0 5px;
@@ -233,6 +237,10 @@ input[type="button"], button {
 .breadcrumb .current {
     text-decoration: underline;
     cursor: default;
+}
+
+.breadcrumb .current:hover {
+    color: rgba(225,225,225, 0.75);
 }
 
 .product {
