@@ -294,6 +294,7 @@ b {
 
 .product-description {
     padding: 15px 15px 20px;
+    border-top: 1px solid white;
 }
 
 h2 {
