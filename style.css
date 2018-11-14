@@ -346,8 +346,15 @@ p {
     border: 1px solid white;
 }
 
-
 .good-button.cart {
     background: rgba(225,225,225, 0.3) url("images/cash_empty.png") no-repeat 170px;
     padding-right: 30px;
+}
+
+.good-button.more-details:hover {
+    background-color: rgba(225,225,225, 0.3);
+}
+
+.good-button.cart:hover {
+    background-color: #2c71b8;
 }
