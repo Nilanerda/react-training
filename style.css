@@ -219,13 +219,14 @@ input[type="button"], button {
     text-decoration: none;
 }
 
-.breadcrumb a:after {
+.breadcrumb li:after {
     content: ">";
     margin: 0 5px;
     cursor: default;
+    color: rgba(225,225,225, 0.75);
 }
 
-.breadcrumb .current:after {
+.breadcrumb .last-link:after {
     content: none;
 }
 
