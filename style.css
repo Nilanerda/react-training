@@ -245,11 +245,6 @@ input[type="button"], button {
     position: relative;
 }
 
-.product-view-bar .row {
-    margin-left: 0;
-    margin-right: 0;
-}
-
 .product-image {
     display: block;
     position: absolute;
@@ -261,22 +256,14 @@ input[type="button"], button {
 }
 
 .image-options-button {
+    position: absolute;
     display: block;
     width: 30px;
     height: 30px;
     background-color: transparent;
     border: 1px solid #2c71b8;
-    position: relative;
-    float: right;
-    margin: 10px 10px 0 0;
-}
-
-.image-options-button.full-size:hover {
-    background: url("images/border-white.png") #2c71b8 no-repeat center;
-}
-
-.image-options-button.favorite:hover {
-    background: url("images/heart_white.png") #2c71b8 no-repeat center;
+    top: 10px;
+    right: 10px;
 }
 
 .image-options-button.full-size {
@@ -285,6 +272,15 @@ input[type="button"], button {
 
 .image-options-button.favorite {
     background: url("images/heart.png") no-repeat center;
+    top: 50px;
+}
+
+.image-options-button.full-size:hover {
+    background: url("images/border-white.png") #2c71b8 no-repeat center;
+}
+
+.image-options-button.favorite:hover {
+    background: url("images/heart_white.png") #2c71b8 no-repeat center;
 }
 
 b {
