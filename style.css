@@ -345,16 +345,8 @@ p {
     border: 1px solid white;
 }
 
-.good-button a {
-    display: block;
-    color: white;
-    text-decoration: none;
-}
 
 .good-button.cart {
-    background-color: rgba(225,225,225, 0.3);
-}
-
-.fa-shopping-cart {
-    margin-left: 10px;
+    background: rgba(225,225,225, 0.3) url("images/cash_empty.png") no-repeat 170px;
+    padding-right: 30px;
 }
