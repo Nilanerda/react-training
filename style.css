@@ -369,16 +369,33 @@ p {
 }
 
 .nav-aside {
-    padding: 30px 0;
+    padding: 30px 0 30px 30px;
 }
 
-.nav-aside-color {
+.nav-aside p:last-child {
+    margin-bottom: 0;
+}
+
+.nav-aside-filter {
     background-color: rgba(225,225,225, 0.3);
-    padding-left: 30px;
     border-right: 1px solid white;
 }
 
 .filter-name {
     text-transform: uppercase;
     font-weight: bold;
+}
+
+.more-options {
+    font-size: 21px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.filter-submit {
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 20px 70px;
+    background-color: #2c71b8;
+    border: 1px solid white;
 }
