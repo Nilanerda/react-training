@@ -367,3 +367,18 @@ p {
 .good-button.cart:hover {
     background-color: #2c71b8;
 }
+
+.nav-aside {
+    padding: 30px 0;
+}
+
+.nav-aside-color {
+    background-color: rgba(225,225,225, 0.3);
+    padding-left: 30px;
+    border-right: 1px solid white;
+}
+
+.filter-name {
+    text-transform: uppercase;
+    font-weight: bold;
+}
