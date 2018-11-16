@@ -386,10 +386,34 @@ p {
     font-weight: bold;
 }
 
+input[type="checkbox"] {
+    display: none;
+}
+
+.filter-checkbox {
+    cursor: pointer;
+}
+
+.filter-checkbox:before {
+    content: "";
+    display: inline-block;
+    position: relative;
+    height: 10px;
+    width: 10px;
+    border: 1px solid white;
+    bottom: 2px;
+    margin-right: 10px;
+}
+
+input:checked + .filter-checkbox:before {
+    background-color: white;
+}
+
 .more-options {
     font-size: 21px;
     text-align: center;
     padding-bottom: 30px;
+    cursor: default;
 }
 
 .filter-submit {
