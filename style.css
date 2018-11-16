@@ -430,3 +430,20 @@ input:checked + .filter-checkbox:before {
     margin-bottom: 90px;
     cursor: pointer;
 }
+
+.footer {
+    background-color: rgba(225,225,225,0.75);
+    padding: 40px 0;
+}
+
+.footer-licence {
+    font-size: 21px;
+    color: #2c71b8;
+    text-align: center;
+}
+
+.footer-licence:before {
+    content: "©";
+    display: inline-block;
+    margin-right: 5px;
+}
